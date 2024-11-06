@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-bottom: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    height: 25%;
+    display: grid;  position: relative; top: 0; left: 0; right: 0;
+    /* background-color: aqua; */
+    background-color: #003466; width: 100%;
+    grid-template-columns: 27% 40% 27%; gap: 3%;
+}
+.left-header{
+    display: flex;justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
+.middle-header{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    gap: 15px;
+}
+.school-name{
+    font-size: 45px; color: white;
+    font-weight: 600;
+}
+.form-title{
+    font-size: 35px; color: white;
+}
+.school-address{
+    display: flex; flex-direction: column; font-size:22px;
+    align-items: center; font-weight: 600;
+}
+@media (min-width:967px){
+    #drop-area{
+        width: 180px; height: 180px;border: dashed gray 2px;
+    }
+}
+@media (min-width:876px){
+    
+}
+@media (max-width:965px){
+    .school-name{
+        font-size: 40px;
+    }
+    .form-title{
+        font-size: 25px;
+    }
+    .school-address{
+        font-size: 20px;
+    }
+    .logo{
+        width: 200px; height: 180px; align-self: center;
+    }
+    .text-line{
+        display: block;
+    }
+    label{
+        text-wrap: nowrap;
+    }
+    .form-line{
+        display: flex; flex-direction: column; 
+    }
+    .parents-side,.pick-up-side, .sign-line{
+        display: flex; flex-direction: column;
+    }
+    #drop-area{
+        width: 150px; height: 150px;border: dashed gray 2px;
+    }
+}
+@media (max-width:844px){
+    .school-name{
+        font-size: 35px;
+    }
+    .form-title{
+        font-size: 20px;
+    }
+    #drop-area{
+        width: 130px; height: 130px;border: dashed gray 2px;
+    }
+}
+@media (max-width:739px){
+    .school-name{
+        font-size: 30px;
+    }
+    .form-title{
+        font-size: 17px;
+    }
+    .school-address{
+        font-size: 17px;
+    }
+    #drop-area{
+        width: 110px; height: 110px;border: dashed gray 2px;
+    }
+}
+@media (max-width:633px){
+    .school-name{
+        font-size: 28px;
+    }
+    .form-title{
+        font-size: 17px;
+    }
+    .school-address{
+        font-size: 16px;
+    }
+    #drop-area{
+        width: 100px; height: 100px;border: dashed gray 2px;
+    }
+}
+@media (max-width:591px){
+    .school-name{
+        font-size: 25px;
+    }
+    .form-title{
+        font-size: 17px;
+    }
+    .school-address{
+        font-size: 15px;
+    }
+    #drop-area{
+        width: 95px; height: 95px;border: dashed gray 2px;
+    }
+}
+@media (max-width:527px){
+    .school-name{
+        font-size: 22px;
+    }
+    .form-title{
+        font-size: 17px;
+    }.school-address{
+        font-size: 14px;
+    }
+
+}
+@media (max-width:464px){
+    .school-name{
+        font-size: 20px;
+    }
+    .form-title{
+        font-size: 17px;
+    }
+    .school-address{
+        font-size: 13px;
+    }
+    #drop-area{
+        width: 90px; height: 90px;border: dashed gray 2px;
+    }
+}
+@media (max-width:423px){
+    .school-name{
+        font-size: 18px;
+    }
+    .form-title{
+        font-size: 15px;
+    }
+    #drop-area{
+        width: 87px; height: 87px;border: dashed gray 2px;
+    }
+}
+@media (max-width:380px){
+    .school-name{
+        font-size: 16px;
+    }
+    .form-title{
+        font-size: 14px;
+    }
+    .school-address{
+        font-size: 12px;
+    }
+    #drop-area{
+        width: 85px; height: 85px;border: dashed gray 2px;
+    }
+}
+#drop-area{
+    border: dashed gray 2px; max-width: 180px; max-height: 180px; display: flex; align-items: center; justify-content: center;
+}
+.right-header{
+    display: flex; align-items: center; justify-content: center;
+    padding-top: 20px; padding-bottom: 10px;
+}
+
+.sub-body{
+    padding-left: 6%; padding-top: 50px; 
+    padding-right: 6%;
+    display: flex; flex-direction: column; gap: 50px;
+    
+}
+.body-division{
+    display: flex; flex-direction: column;
+    gap: 20px;
+}
+.sub-title{
+    background-color: #426c92; color: white;
+    padding-block: 5px; padding-left: 0PX; width: 100%;
+}
+.form{
+    display: flex; flex-direction: column; gap: 20px;
+}
+.form-line{
+    display: flex; gap: 30px; 
+}
+#reading-ability, #writing-ability, #has-allergies{
+    display: flex; align-items: center; gap: 20px;
+}
+.ability-line, .allergies-line{
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+}
+.parents-side, .pick-up-side, .sign-line{
+    display: flex; gap: 30px;
+}
+.father-side, .mother-side, .person-one-side, .person-two-side{
+    display: flex; flex-direction: column;
+    gap: 20px;
+}
+.father, .mother, .person-one, .person-two{
+    display: flex; flex-direction: column;
+    gap: 15px;
+}
+.parent-text, .person-name{
+    font-weight: 600;
+}
+.please-specify{
+    display: flex; align-items: center;
+}
+label{
+    text-wrap: nowrap;
+}
+.medical-text{
+    text-wrap: wrap;
+}
+/* #reading-ability,#writing-ability{
+    flex: 3.5;
+}*/
+.main-lives-with{
+    display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+}
+.lives-with{
+    display: flex; gap: 20px; flex-wrap: wrap;
+} 
+input[type=date]{
+    max-width: 20px; min-width: 8px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: solid 1px black;
+    padding-left: 2px; width: 100%;
+    box-sizing: content-box;
+}
+input[type=text]:focus{
+    outline: none;
+}
+th,td{
+    border: solid 1px black; border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    padding: 11px;
+}
+table{
+    border-collapse: collapse;  
+}
+.notice{
+    display: flex; flex-direction: column;
+    align-items: center;
+}
+h3{
+    text-align: center; 
+    margin-top: 20px;
+}
+.text-line{
+    display: flex; gap: 10px; align-items: center; width: auto; 
+}
+.please-specify-text{
+    width: 150px;
+}
+#received-passport{
+    display: flex; align-items: center;
+    gap: 10px;
+}
+.received-line{
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap;
+}
+.table-input{
+    width: 90%; display: flex; flex-direction: column; gap: 15px;
+    margin-bottom: 10px;
+}
+p{
+    text-wrap: wrap; text-align: center;
+}

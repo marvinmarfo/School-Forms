@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>School Forms</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="left-header">
+                <img src="logo.jpg" class="logo">
+            </div>
+            <div class="middle-header">
+                <div class="school-name">K-OAK SCHOOL</div>
+                <div class="school-address">
+                    <div class="school-pobox">P.O.BOX YB 398</div>
+                    <div class="school-location">APATRAPA – KUMASI</div>
+                </div>
+                <div class="form-title">ADMISSION FORM</div>
+            </div>
+            <div class="right-header">
+                <label for="input-photo" id="drop-area">
+                    <input type="file" src="" id="input-photo" accept="image/* " hidden width="180px" height="180px">
+                    <!-- <img src="logo.jpg" width="180px" height="180px"> -->
+                    <div class="img-view">
+                        <p>PASSPORT PICTURE</p>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <div class="sub-body">
+            <div class="body-division">
+                <div class="sub-title">A. CHILD INFORMATION</div>
+                <div >
+                    <form action="" class="form">
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="child-surname">Child’s Surname:</label>
+                                <input type="text" name="child-surname" id="child-surname">
+                            </div>
+                            <div class="text-line">
+                                <label for="child-first-name">First Name:</label>
+                                <input type="text" name="child-first-name" id="child-first-name">
+                            </div>
+                        </div>
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="child-age">Current Age:</label>
+                                <input type="text" name="child-age" id="child-age">
+                            </div>
+                            <div class="text-line">
+                                <label for="child-birthdate">Date of Birth:</label>
+                                <input type="text" name="child-birthdate" id="child-birthdate">
+                            </div>
+                        </div>
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="child-birth-place">Place of Birth:</label>
+                                <input type="text" name="child-birth-place" id="child-birth-place">
+                            </div>
+                            <div class="text-line">
+                                <label for="child-nationality">Nationality:</label>
+                                <input type="text" name="child-nationality" id="child-nationality">
+                            </div>
+                        </div>
+                        <div class="text-line">
+                            <label for="child-address">Residential Address:</label>
+                            <input type="text" name="child-address" id="child-address">
+                        </div>
+                        <div class="text-line">
+                            <label for="child-language">Language(s) spoken at home:</label>
+                            <input type="text" name="child-language" id="child-language">
+                        </div>
+                        <div class="ability-line">
+                            <label for="reading-ability">Please rate your child’s English reading ability:</label>
+                            <div id="reading-ability">
+                                <div class="text-line">
+                                    <input type="radio" name="reading-ability" id="beginner1">
+                                    <label for="beginner1">Beginner</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="reading-ability" id="intermediate1">
+                                    <label for="intermediate1">Intermediate</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="reading-ability" id="advanced1">
+                                    <label for="advanced1">Advanced</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ability-line">
+                            <label for="writing-ability">Please rate your child’s English writing ability:</label>
+                            <div id="writing-ability">
+                                <div class="text-line">
+                                    <input type="radio" name="writing-ability" id="beginner1">
+                                    <label for="beginner1">Beginner</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="writing-ability" id="intermediate1">
+                                    <label for="intermediate1">Intermediate</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="writing-ability" id="advanced1">
+                                    <label for="advanced1">Advanced</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">B. PARENT INFORMATION</div>
+                <div class="parents">
+                    <form action="" class="form">
+                        <div class="parents-side">
+                            <div class="father-side">
+                                <div class="parent-text">FATHER</div>
+                                <div class="father">
+                                    <div class="text-line">
+                                        <label for="father-surname">Surnname:</label>
+                                        <input type="text" name="father-surname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-firstname">First Name:</label>
+                                        <input type="text" name="father-firstname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-occupation">Occupation:</label>
+                                        <input type="text" name="father-occupation" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-employer">Name of Employer:</label>
+                                        <input type="text" name="father-employer" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-address">Address:</label>
+                                        <input type="text" name="father-address" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-work-number">Work Phone:</label>
+                                        <input type="text" name="father-work-number" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-phone-number">Work Phone:</label>
+                                        <input type="text" name="father-phone-number" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="father-email">Email Address:</label>
+                                        <input type="text" name="father-email" id="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mother-side">
+                                <div class="parent-text">MOTHER</div>
+                                <div class="mother">
+                                    <div class="text-line">
+                                        <label for="mother-surname">Surnname:</label>
+                                        <input type="text" name="mother-surname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-firstname">First Name:</label>
+                                        <input type="text" name="mother-firstname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-occupation">Occupation:</label>
+                                        <input type="text" name="mother-occupation" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-employer">Name of Employer:</label>
+                                        <input type="text" name="mother-employer" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-address">Address:</label>
+                                        <input type="text" name="mother-address" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-work-number">Work Phone:</label>
+                                        <input type="text" name="mother-work-number" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-phone-number">Work Phone:</label>
+                                        <input type="text" name="mother-phone-number" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="mother-email">Email Address:</label>
+                                        <input type="text" name="mother-email" id="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-lives-with">
+                            <label for="lives-with">Child lives with:</label>
+                            <div class="lives-with">
+                                <div class="text-line">
+                                    <input type="radio" name="child-lives-with" id="both-parents">
+                                    <label for="both-parents">Both Parents</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="child-lives-with" id="father-only">
+                                    <label for="father-only">Father Only</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="child-lives-with" id="mother-only">
+                                    <label for="mother-only">Mother Only</label>
+                                </div>
+                                <div class="text-line">
+                                    <div class="text-line">
+                                        <input type="radio" name="child-lives-with" id="other">
+                                        <label for="other">Other</label>
+                                    </div>
+                                </div>
+                                <div class="text-line">
+                                    (
+                                        <label for="please" >Please specify</label>
+                                        <input type="text" name="please-specify" id="please">
+                                    )
+                                </div>
+                            </div>
+                        </div>             
+                    </form>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">C. GUARDIAN</div>
+                <div >
+                    <form action="" class="form">
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="guardian-surname">Surname:</label>
+                                <input type="text" name="guardian-surname" id="guardian-surname">
+                            </div>
+                            <div class="text-line">
+                                <label for="guardian-first-name">First Name:</label>
+                                <input type="text" name="guardian-first-name" id="guardian-first-name">
+                            </div>
+                        </div>
+                        <div class="text-line">
+                            <label for="guardian-occupation">Occupation:</label>
+                            <input type="text" name="guardian-occupation" id="guardian-occupation">
+                        </div>
+                        <div class="text-line">
+                            <label for="guardian-address">Address:</label>
+                            <input type="text" name="guardian-address" id="guardian-address">
+                        </div>
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="guardian-work-phone">Work Phone:</label>
+                                <input type="text" name="guardian-work-phone" id="guardian-work-phone">
+                            </div>
+                            <div class="text-line">
+                                <label for="guardian-cell-phone">Cell Phone:</label>
+                                <input type="text" name="guardian-cell-phone" id="guardian-cell-phone">
+                            </div>
+                        </div>
+                        <div class="text-line">
+                            <label for="guardian-email">Email Address:</label>
+                            <input type="text" name="guardian-email" id="guardian-email">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">D. EMERGENCY CONTACT</div>
+                <div >
+                    <form action="" class="form">
+                        <label for="emergency-contact-name">In the event of an emergency, contact person(s):</label>
+                        <input type="text" name="emergency-contact-name" id="emergency-contact-name">
+                        <div class="text-line">
+                            <label for="emergency-contact-address">Address:</label>
+                            <input type="text" name="emergency-contact-address" id="emergency-contact-address">
+                        </div>
+                        <div class="form-line">
+                            <div class="text-line">
+                                <label for="emergency-contact-home-phone">Home Phone:</label>
+                                <input type="text" name="emergency-contact-home-phone" id="emergency-contact-home-phone">
+                            </div>
+                            <div class="text-line">
+                                <label for="emergency-contact-cell-phone">Cell Phone:</label>
+                                <input type="text" name="emergency-contact-cell-phone" id="emergency-contact-cell-phone">
+                            </div>
+                        </div>
+                        <div class="text-line">
+                            <label for="emergency-contact-relationship">Relationship to Child:</label>
+                            <input type="text" name="emergency-contact-relationship" id="emergency-contact-relationship">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">E. PREVIOUS SCHOOLING </div>
+                <div class="">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Name of School</th>
+                                <th rowspan="2">Address</th>
+                                <th colspan="2">Date Attended</th>
+                                <th rowspan="2">Last Class Reached</th>
+                            </tr>
+                            <th>From</th>
+                            <th>To</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="date" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">F. CURRENT MEDICAL INFORMATION </div>
+                <div >
+                    <form action="" class="form">
+                        <div class="allergies-line">
+                            <label for="has-allergies">My Child has allergies:</label>
+                            <div id="has-allergies">
+                                <div class="text-line">
+                                    <input type="radio" name="has-allergies" id="no">
+                                    <label for="no">No</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="has-allergies" id="not-known">
+                                    <label for="not-known">Not Known</label>
+                                </div>
+                                <div class="text-line">
+                                    <input type="radio" name="has-allergies" id="advanced1">
+                                    <label for="advanced1">Yes</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-line">
+                            <label for="child-allergies">If Yes, please list allergies:</label>
+                            <input type="text" name="child-allergies" id="child-allergies">
+                        </div>
+                        <label for="child-conditions" class="medical-text">Indicate condition(s) that your Child has that require(s) medical attention – such as diabetes, epilepsy, asthma, etc. </label>
+                        <input type="text" name="child-conditions" id="child-conditions">
+                        <label for="child-conditions-significant" class="medical-text">Please tell us any other significant medical condition that we need to know about your Child’s health. </label>
+                        <input type="text" name="child-conditions-significant" id="child-conditions-significant">
+                        <input type="text" name="child-conditions-significant" id="child-conditions-significant">
+                        
+                    </form>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">G. PARENTS REPORT OF CHILD </div>
+                <div class="">
+                    <table>
+                        <tr>
+                            <td>
+                                What are your child’s strengths and interests?
+                                <div class="table-input">
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Does your child have a fear or anxiety in any particular situation?
+                                <div class="table-input">
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                In what ways does your child express anger and frustration or distress? (e.g. changes to routines, unable to get what he or she wants, going to new places)?
+                                <div class="table-input">
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                What are some of your child’s behaviors when he/she is upset or distressed? (e.g. tendency to run away from school if unsupervised, injuries to self or others).
+                                <div class="table-input">
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                What to do to help your child to calm down when he/she is upset or distressed?
+                                <div class="table-input">
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">H. PICK UP INFORMATION </div>
+                <div class="">
+                    <form action="">
+                        <div class="pick-up-side">
+                            <div class="person-one-side">
+                                <div class="person-name">Pick-up Person Number 1</div>
+                                <div class="person-one">
+                                    <div class="text-line">
+                                        <label for="person-one-fullname">Full Name:</label>
+                                        <input type="text" name="person-one-fullname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="person-one-phone-contact">Phone Contacts:</label>
+                                        <input type="text" name="person-one-phone-contact" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="person-one-relationship">Relationship to child:</label>
+                                        <input type="text" name="person-one-relationship" id="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="person-two-side">
+                                <div class="person-name">Pick-up Person Number 2</div>
+                                <div class="person-two">
+                                    <div class="text-line">
+                                        <label for="person-two-fullname">Full Name:</label>
+                                        <input type="text" name="person-two-fullname" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="person-two-phtwo-contact">Phone Contacts:</label>
+                                        <input type="text" name="person-two-phtwo-contact" id="">
+                                    </div>
+
+                                    <div class="text-line">
+                                        <label for="person-two-relationship">Relationship to child:</label>
+                                        <input type="text" name="person-two-relationship" id="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="">Please provide a passport sized photo each of your child’s pickers.</div>
+            </div>
+
+            <div class="body-division">
+                <div class="sub-title">I. DECLARATION </div>
+                <div class="form">
+                    <div class="">
+                        I declare that the information provided herein by me is true and I agree to abide by the rules of the School and to pay the fees and other dues on behalf of the child within due dates. 
+                    </div>
+                    <div class="">
+                        <form action="" class="form">
+                            <div class="form-line">
+                                <div class="text-line">
+                                    <label for="my-name">Name:</label>
+                                    <input type="text" name="my-name">
+                                </div>
+                                <div class="text-line">
+                                    <label for="my-relationship">Relationship to child:</label>
+                                    <input type="text" name="my-relationship">
+                                </div>
+                            </div>
+                            <div class="text-line">
+                                <label for="my-signature">Signature:</label>
+                                <input type="text" name="my-signature">
+                            </div>
+                            <div class="text-line">
+                                <label for="my-date">Date</label>
+                                <input type="text" name="my-date">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-division">
+                <div class="notice">
+                    <h3>IMPORTANT!!!</h3>
+                    <h3>PLEASE SUPPLY ALL REQUESTED INFORMATION. INCOMPLETE FORMS CANNOT BE PROCESSED</h3>
+                </div>
+                <div class="sub-title">J. FOR OFFICE USE ONLY</div>
+                <div class="">
+                    <form action="" class="form">
+                        <div class="text-line">
+                            <label for="pupil-name">Name of Pupil:</label>
+                            <input type="text" name="pupil-name">
+                        </div>
+                        <div class="text-line">
+                            <label for="student-class">Class:</label>
+                            <input type="text" name="student-class">
+                        </div>
+                        <div class="text-line">
+                            <label for="admission-number">Admission No.:</label>
+                            <input type="text" name="admission-number">
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport" class="medical-text">Two (2) coloured passport sized photograph received:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="received-passport" id="yes-one">
+                                    <label for="yes-one">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="received-passport" id="no-one">
+                                    <label for="no-one">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport" class="medical-text">Two (2) coloured passport sized photograph of pickers received:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="received-passport-picker" id="yes-two">
+                                    <label for="yes-two">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="received-passport-picker" id="no-two">
+                                    <label for="no-two">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport">Progress report from previous school received:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="received-progress" id="yes-three">
+                                    <label for="yes-three">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="received-progress" id="no-three">
+                                    <label for="no-three">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport" class="medical-text">Page copy of immunization certificate (preschoolers only) received:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="received-immunization-cert" id="yes-four">
+                                    <label for="yes-four">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="received-immunization-cert" id="no-four">
+                                    <label for="no-four">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport">A photocopy of the child’s NHIS card:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="NHIS-card" id="yes-five">
+                                    <label for="yes-five">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="NHIS-card" id="no-five">
+                                    <label for="no-five">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-line">
+                            <label for="received-passport">Any other undertaking(s) received:</label>
+                            <div id="received-passport">
+                                <div class="between-radio">
+                                    <input type="radio" name="received-undertakings" id="yes-six">
+                                    <label for="yes-six">Yes</label>
+                                </div>
+                                <div class="between-radio">
+                                    <input type="radio" name="received-undertakings" id="no-six">
+                                    <label for="no-six">No</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sign-line">
+                            <div class="text-line">
+                                <label for="current-sign">Sign:</label>
+                                <input type="text" name="current-sign" id="">
+                            </div>
+                            <div class="text-line">
+                                <label for="current-date">Date:</label>
+                                <input type="text" name="current-date" id="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <h3>HEAD OF SCHOOL</h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
